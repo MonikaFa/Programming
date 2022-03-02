@@ -1,0 +1,314 @@
+[gd_scene load_steps=49 format=2]
+
+[ext_resource path="res://Sprites/Scaled/LevelButtons/12.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/1_pressed.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/2.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/2_pressed.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/3.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/3_pressed.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/4.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/4_pressed.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/LevelSelection.gd" type="Script" id=10]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/8.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/7_pressed.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/8_pressed.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/6_pressed.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/7.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/10_pressed.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/11.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/11_pressed.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/9.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/12_pressed.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/9_pressed.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/10.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/6.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/5.png" type="Texture" id=24]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/5_pressed.png" type="Texture" id=25]
+[ext_resource path="res://Sprites/Scaled/level_page5.png" type="Texture" id=26]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/13.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/13_pressed.png" type="Texture" id=28]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/19.png" type="Texture" id=29]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/14.png" type="Texture" id=30]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/15_pressed.png" type="Texture" id=31]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/14_pressed.png" type="Texture" id=32]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/20_pressed.png" type="Texture" id=33]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/18_pressed.png" type="Texture" id=34]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/17.png" type="Texture" id=35]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/19_pressed.png" type="Texture" id=36]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/16.png" type="Texture" id=37]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/18.png" type="Texture" id=38]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/17_pressed.png" type="Texture" id=39]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/20.png" type="Texture" id=40]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/15.png" type="Texture" id=41]
+[ext_resource path="res://Sprites/Scaled/LevelButtons/16_pressed.png" type="Texture" id=42]
+[ext_resource path="res://Sprites/Scaled/Button_Home.png" type="Texture" id=43]
+[ext_resource path="res://Sprites/Scaled/Button_Home_pressed.png" type="Texture" id=44]
+[ext_resource path="res://Sprites/Scaled/Button_Back.png" type="Texture" id=45]
+[ext_resource path="res://Sprites/Scaled/Button_Back_pressed.png" type="Texture" id=46]
+[ext_resource path="res://Sprites/Scaled/Button_Next_pressed.png" type="Texture" id=47]
+[ext_resource path="res://Sprites/Scaled/Button_Next.png" type="Texture" id=48]
+
+[node name="LevelSelection" type="Node2D"]
+script = ExtResource( 10 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 352, 640 )
+texture = ExtResource( 26 )
+
+[node name="Back" type="TextureButton" parent="."]
+visible = false
+margin_left = 176.0
+margin_top = 1120.0
+margin_right = 272.0
+margin_bottom = 1216.0
+texture_normal = ExtResource( 45 )
+texture_pressed = ExtResource( 46 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Home" type="TextureButton" parent="."]
+margin_left = 304.0
+margin_top = 1120.0
+margin_right = 400.0
+margin_bottom = 1216.0
+texture_normal = ExtResource( 43 )
+texture_pressed = ExtResource( 44 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Next" type="TextureButton" parent="."]
+margin_left = 432.0
+margin_top = 1120.0
+margin_right = 528.0
+margin_bottom = 1216.0
+texture_normal = ExtResource( 48 )
+texture_pressed = ExtResource( 47 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level1" type="TextureButton" parent="."]
+margin_left = 112.0
+margin_top = 448.0
+margin_right = 208.0
+margin_bottom = 544.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level2" type="TextureButton" parent="."]
+margin_left = 240.0
+margin_top = 448.0
+margin_right = 336.0
+margin_bottom = 544.0
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level3" type="TextureButton" parent="."]
+margin_left = 368.0
+margin_top = 448.0
+margin_right = 464.0
+margin_bottom = 544.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level4" type="TextureButton" parent="."]
+margin_left = 496.0
+margin_top = 448.0
+margin_right = 592.0
+margin_bottom = 544.0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 9 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level5" type="TextureButton" parent="."]
+margin_left = 112.0
+margin_top = 576.0
+margin_right = 208.0
+margin_bottom = 672.0
+texture_normal = ExtResource( 24 )
+texture_pressed = ExtResource( 25 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level6" type="TextureButton" parent="."]
+margin_left = 240.0
+margin_top = 576.0
+margin_right = 336.0
+margin_bottom = 672.0
+texture_normal = ExtResource( 23 )
+texture_pressed = ExtResource( 14 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level7" type="TextureButton" parent="."]
+margin_left = 368.0
+margin_top = 576.0
+margin_right = 464.0
+margin_bottom = 672.0
+texture_normal = ExtResource( 15 )
+texture_pressed = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level8" type="TextureButton" parent="."]
+margin_left = 496.0
+margin_top = 576.0
+margin_right = 592.0
+margin_bottom = 672.0
+texture_normal = ExtResource( 11 )
+texture_pressed = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level9" type="TextureButton" parent="."]
+margin_left = 112.0
+margin_top = 704.0
+margin_right = 208.0
+margin_bottom = 800.0
+texture_normal = ExtResource( 19 )
+texture_pressed = ExtResource( 21 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level10" type="TextureButton" parent="."]
+margin_left = 240.0
+margin_top = 704.0
+margin_right = 336.0
+margin_bottom = 800.0
+texture_normal = ExtResource( 22 )
+texture_pressed = ExtResource( 16 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level11" type="TextureButton" parent="."]
+margin_left = 368.0
+margin_top = 704.0
+margin_right = 464.0
+margin_bottom = 800.0
+texture_normal = ExtResource( 17 )
+texture_pressed = ExtResource( 18 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level12" type="TextureButton" parent="."]
+margin_left = 496.0
+margin_top = 704.0
+margin_right = 592.0
+margin_bottom = 800.0
+texture_normal = ExtResource( 1 )
+texture_pressed = ExtResource( 20 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level13" type="TextureButton" parent="."]
+margin_left = 112.0
+margin_top = 832.0
+margin_right = 208.0
+margin_bottom = 928.0
+texture_normal = ExtResource( 27 )
+texture_pressed = ExtResource( 28 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level14" type="TextureButton" parent="."]
+margin_left = 240.0
+margin_top = 832.0
+margin_right = 336.0
+margin_bottom = 928.0
+texture_normal = ExtResource( 30 )
+texture_pressed = ExtResource( 32 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level15" type="TextureButton" parent="."]
+margin_left = 368.0
+margin_top = 832.0
+margin_right = 464.0
+margin_bottom = 928.0
+texture_normal = ExtResource( 41 )
+texture_pressed = ExtResource( 31 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level16" type="TextureButton" parent="."]
+margin_left = 496.0
+margin_top = 832.0
+margin_right = 592.0
+margin_bottom = 928.0
+texture_normal = ExtResource( 37 )
+texture_pressed = ExtResource( 42 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level17" type="TextureButton" parent="."]
+margin_left = 112.0
+margin_top = 960.0
+margin_right = 208.0
+margin_bottom = 1056.0
+texture_normal = ExtResource( 35 )
+texture_pressed = ExtResource( 39 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level18" type="TextureButton" parent="."]
+margin_left = 240.0
+margin_top = 960.0
+margin_right = 336.0
+margin_bottom = 1056.0
+texture_normal = ExtResource( 38 )
+texture_pressed = ExtResource( 34 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level19" type="TextureButton" parent="."]
+margin_left = 368.0
+margin_top = 960.0
+margin_right = 464.0
+margin_bottom = 1056.0
+texture_normal = ExtResource( 29 )
+texture_pressed = ExtResource( 36 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Level20" type="TextureButton" parent="."]
+margin_left = 496.0
+margin_top = 960.0
+margin_right = 592.0
+margin_bottom = 1056.0
+texture_normal = ExtResource( 40 )
+texture_pressed = ExtResource( 33 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Home" to="." method="_on_Home_pressed"]
+[connection signal="pressed" from="Level1" to="." method="_on_Level1_pressed"]
