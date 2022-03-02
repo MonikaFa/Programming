@@ -1,0 +1,2 @@
+worker: node botanica.js
+heroku config:set MONGODB_URI=""mongodb+srv://Botanica_user:fDrqg8D4p4OV8lim@cluster0.z5ljv.mongodb.net/Botanica?retryWrites=true&w=majority"
