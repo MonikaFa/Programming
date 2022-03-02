@@ -1,6 +1,8 @@
 # Botanica 🌱
 ## This project is a Work-In-Progress 🚧
 
+![SCREENSHOT](https://cdn.discordapp.com/attachments/783039134641553438/948619918247624785/unknown.png)
+
 This is a **Discord bot text game** made with **Node.js** and **Discord API** 
 
 ## How To Play 🎮
